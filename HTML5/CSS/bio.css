@@ -1,0 +1,61 @@
+.citacao:hover, .citacao:focus{
+  box-shadow: 0 0 0 9999px rgba(0,0,0,.6);
+}
+blockquote:nth-of-type(odd){
+  float:right;
+  margin-top: 1px;
+}
+.citacao:nth-of-type(odd){
+  background-color:#D9E5E3;
+  width:17.5rem;
+  box-sizing:border-box;
+  border:0.625rem solid #C2CCCA;
+  padding:0.9375rem;
+  margin:1.25rem 2.5rem;
+  transition: transform 1s, box-shadow 2s;
+  transition-delay: 1s, 0s;
+}
+.citacao:nth-of-type(odd):hover, .citacao:nth-of-type(odd):focus{
+  transform: scale(1.2) rotate(5deg);
+  transition-delay: 0s, 1s;
+}
+.autorJose{
+  text-align:right;
+  font-style: italic;
+  display:block;
+}
+blockquote::before{
+  content: "“";
+  color: #bbb;
+  position: absolute;
+  font-size: 1000%;
+  line-height: .6;
+}
+.citacao > p{
+  position: relative;
+}
+blockquote:nth-of-type(even){
+  float:left;
+  margin-left:0;
+  margin-top: 1px;
+}
+.citacao:nth-of-type(even):hover, .citacao:nth-of-type(even):focus{
+  transform: scale(1.2) rotate(-5deg);
+}
+.citacao:nth-of-type(even){
+  background-color:#D9E5E3;
+  width:17.5rem;
+  box-sizing:border-box;
+  border:0.625rem solid #C2CCCA;
+  padding:0.9375rem;
+  margin:1.25rem 2.5rem;
+  transition: transform 1s, box-shadow 2s;
+  transition-delay: 1s, 0s;
+
+}
+.autorManoel{
+  text-align: right;
+  font-style: italic;
+  display:inline-block;
+  width:218px;
+}

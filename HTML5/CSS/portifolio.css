@@ -1,0 +1,17 @@
+
+.portifolio li{
+  display: inline-block;
+  border:8px solid black;
+  box-sizing:border-box;
+  background-color:#FAFFFC;
+  padding:16px;
+  margin-right:16px;
+  margin-bottom:16px;
+  font-size:14px;
+  width: 45%;
+  font-family:sans-serif;
+}
+.portifolio img{
+  width: 100%;
+
+}

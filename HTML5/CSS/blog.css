@@ -1,0 +1,32 @@
+.leia-mais {
+	 padding: .5em;
+	 margin: 1em;
+	 display: block;
+	 font-size: 1.5em;
+	 text-align: center;
+	 background-color: #E6E7E8;
+}
+.subtituloBlog{
+	font-size: 150%;
+	margin-top: 1.2em;
+	margin-bottom: 1em;
+	font-family: "Condensed Open Sans", cursive;
+	background-image: linear-gradient(to right, transparent, #DCDCDC, transparent);
+	background-size: 100% 1px;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.H1blog {
+	background-image: linear-gradient(45deg, transparent 15px, rgba(0,0,0,0.2) 15px, rgba(0,0,0,0.2) 16px, transparent 16px);
+	background-size: 20px 20px;
+	background-attachment: fixed;
+}
+.iconesBlog{
+	margin-left: 1.3em;
+}
+
+.iconesBlog a:hover{
+  color: white;
+  text-align: center;
+}
